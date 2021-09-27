@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <h2 id="question">Questão</h2>
+        </div>
+        <div id="content">
+            <ul>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="a">
+                    <label id="a_text" for="a">alternativa</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="b">
+                    <label id="b_text" for="b">alternativa</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="c">
+                    <label id="c_text" for="c">alternativa</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" class="answer" id="d">
+                    <label id="d_text" for="d">alternativa</label>
+                </li>
+                <li>
+            </ul>
+        </div>
+            <button id="submit">Enviar resposta</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
